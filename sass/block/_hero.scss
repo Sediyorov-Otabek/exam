@@ -32,3 +32,40 @@
     }
    
 }
+@media(max-width:770px){
+.hero__wrap{
+    width: 100%;
+    height: 549px;
+    background: url(../../assets/pexels-leah-kelley-3935702\ \(1\)\ 1.png);
+    border-radius: 22px;
+    
+    .hero__img{
+        border-radius: 22px;
+        background: url(../../assets/gradient\ faded.png);
+        width: 100%;
+        height: 100%;
+         display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+         b{
+        font-size: 52px;
+
+    }
+    strong{
+        font-size: 28px;
+        text-align: center;
+    }
+    button{
+        width: 182px;
+        height: 40px;
+        background: dodgerblue;
+        border-radius: 25px;
+        border: none;
+        color: white;
+    }
+    }
+   
+}
+}
