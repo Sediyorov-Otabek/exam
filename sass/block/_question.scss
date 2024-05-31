@@ -1,0 +1,100 @@
+.question {
+  margin: 100px 0;
+  .question__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    b {
+      font-size: 50px;
+      font-weight: 600;
+    }
+    .question__collection {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      .question__item {
+        &:hover {
+          color: aliceblue;
+          background: black;
+          border-radius: 25px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+  .question__box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    // border: 1px solid red;
+    .question__title {
+      justify-content: space-between;
+    //   border: 1px solid red;
+    margin: 10px 5px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      border-bottom: 1px solid gray;
+      b {
+        font-size: 18px;
+        font-weight: 100;
+      }
+    }
+  }
+}
+@media(max-width:520px){
+.question {
+  margin: 100px 0;
+  .question__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    b {
+      font-size: 50px;
+      font-weight: 600;
+    }
+    .question__collection {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      .question__item {
+        &:hover {
+          color: aliceblue;
+          background: black;
+          border-radius: 25px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+  .question__box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    // border: 1px solid red;
+    .question__title {
+      justify-content: space-between;
+    //   border: 1px solid red;
+    margin: 10px 5px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      border-bottom: 1px solid gray;
+      b {
+        font-size: 18px;
+        font-weight: 100;
+      }
+    }
+  }
+}
+}

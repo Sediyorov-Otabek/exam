@@ -1,0 +1,127 @@
+.services {
+  margin-top: 70px;
+  .services__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+    b {
+      font-size: 48px;
+      font-weight: 650;
+    }
+    p {
+      color: gray;
+    }
+  }
+  button{
+            width: 250px;
+            padding: 8px;
+            height: 36px;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            background-size: 400%;
+            border-radius: 30px;
+            color: #ffff;
+            &:hover{
+                animation: animate 8s linear infinite;
+            }
+            @keyframes animate{
+                0%{
+                    background-position: 0%;
+                }
+                100%{
+                    background-position:400%;
+                }
+            }
+            
+        }
+  .services__box {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    .services__card {
+        border-radius: 25px;
+        height: 300px;
+      width: 357px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      background: rgb(243, 240, 240);
+      b {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+@media(max-width:770px){
+.services {
+  margin-top: 70px;
+  .services__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+    b {
+      font-size: 48px;
+      font-weight: 650;
+    }
+    p {
+      color: gray;
+    }
+  }
+  button{
+            width: 250px;
+            padding: 8px;
+            height: 36px;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            background-size: 400%;
+            border-radius: 30px;
+            color: #ffff;
+            &:hover{
+                animation: animate 8s linear infinite;
+            }
+            @keyframes animate{
+                0%{
+                    background-position: 0%;
+                }
+                100%{
+                    background-position:400%;
+                }
+            }
+            
+        }
+  .services__box {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    overflow: auto;
+    flex-direction: column;
+    .services__card {
+      margin: auto;
+        border-radius: 25px;
+      width: 357px;
+      height: 300px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      background: rgb(243, 240, 240);
+      b {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+}

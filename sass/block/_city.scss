@@ -1,0 +1,77 @@
+.city__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  .city__title {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.3;
+    b {
+      font-size: 48px;
+    }
+    p {
+      font-size: 24px;
+      color: gray;
+    }
+  }
+  .city__show {
+    display: flex;
+    align-items: center;
+    .show__wrap {
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid gray;
+      }
+    }
+  }
+  .city__card__wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+    overflow: auto;
+    .city__card {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      .card__descr {
+        line-height: 1.3;
+      }
+      b {
+        font-size: 32px;
+      }
+      p {
+        font-size: 20px;
+        color: gray;
+      }
+    }
+}
+.card__btn{
+    margin-top: 70px;
+    width: 162px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid rgb(211, 201, 201);
+    border-radius: 25px;
+     &:hover {
+        cursor: pointer;
+        border-radius: 25px;
+        border: 1px solid gray;
+        color: aqua;
+      }
+    .btn{
+        background: inherit;
+        border: none;
+         &:hover {
+        cursor: pointer;
+        color: aqua;
+      }
+    }
+}
+}

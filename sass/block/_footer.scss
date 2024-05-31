@@ -1,0 +1,94 @@
+footer{
+    margin-top: 100px;
+    border-top: 1px solid gainsboro;
+    
+    .rent__inp {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 5px 10px;
+    form {
+      display: flex;
+      align-items: center;
+      
+      input {
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .footer__wrap{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer__collection{
+        line-height: 2;
+        .footer__item{
+            &:hover{
+                color: rebeccapurple;
+            }
+        }
+    }
+    .footer__collectionsy{
+        display: none;
+         line-height: 2;
+        .footer__item{
+            &:hover{
+                color: rebeccapurple;
+            }
+        }
+    }
+  }
+}
+@media(max-width:750px){
+footer{
+    margin-top: 100px;
+    border-top: 1px solid gainsboro;
+    
+    .rent__inp {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 5px 10px;
+    form {
+      display: flex;
+      align-items: center;
+      
+      input {
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .footer__wrap{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    .footer__collection{
+        display: none;
+        line-height: 2;
+        .footer__item{
+            &:hover{
+                color: rebeccapurple;
+            }
+        }
+    }
+    .footer__collectionsy{
+        display: block;
+         line-height: 2;
+        .footer__item{
+            &:hover{
+                color: rebeccapurple;
+            }
+        }
+    }
+  }
+}
+}
